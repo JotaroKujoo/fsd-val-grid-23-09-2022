@@ -1,6 +1,7 @@
 *{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    color: white;
 }
 
 
@@ -9,16 +10,114 @@ body{
 
 }
 
-.container{
-    position: absolute;
-    background-color: aqua;
-    width: 100vw;
-    height: 100vh;
+a{
+    text-decoration: none;
 }
 
-.navcontainer{
-    position: absolute;
-    background-color: red;
+.container{
+    position: relative;
+    background-color: aqua;
     width: 100%;
-    height: 15%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 90vh ;
+    
+
+}
+
+/* PARTE SUPERIOR */
+
+
+.navcontainer{
+    position: relative;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.leftnavcontainer{
+    position: relative;
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.titlecontainer{
+    background-color: black;
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+
+.selectionchoice{
+    padding-right: 5px;
+    font-size: 100%;
+}
+
+.netflixicon{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.rightnavcontainer{ 
+    position: relative;
+    background-color: black;
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.rightnavoptions{
+    position: relative;
+    font-size: 100%;
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbuttonscontainers{
+    position: relative;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.rightbuttons{
+    width: 40%;
+    height: 60%;
+}
+.centralpanel{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.topcontainer{
+    background-color: green;
+}
+
+.midcontainer{
+    background-color: blue;
+}
+
+.bottomcontainer{
+    background-color: purple;
 }
