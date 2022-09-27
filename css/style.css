@@ -16,7 +16,8 @@ a{
 
 .container{
     position: relative;
-    background-color: aqua;
+
+    background: linear-gradient(rgb(0, 0, 0) 2%, rgb(38, 39, 39));
     width: 100%;
     height: 100%;
     display: grid;
@@ -114,22 +115,18 @@ a{
 }
 
 .topcontainer{
-    background-color: black;
+    background-color: transparent;
     height: 34%;
 }
 
-.midcontainer{
-    background-color: red;
-    height: 33%;
 
-}
 
 .bottomcontainer{
-    background-color: purple;
+    background-color: transparent;
     height: 33%;
 
 }
-.titulo1{
+.titulo{
     width: 90%;
     height: 15%;
     display: flex;
@@ -138,8 +135,8 @@ a{
     margin-left: 5%;
 }
 
-.selectormovie1{
-    background-color: blue;
+.selectormovie{
+    background-color: transparent;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -155,5 +152,20 @@ a{
     justify-content: center;
     align-items: center;
     margin-right: 1%;
+
+}
+
+.movieicon{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.midcontainer{
+    background-color: transparent;
+    height: 33%;
 
 }
